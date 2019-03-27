@@ -1,0 +1,75 @@
+.navbar {
+	text-align: center;
+	background: plum;
+}
+.navbar li {
+	display: inline-block;
+	padding: 20px;
+	background-color: white;
+	border-radius: 13px;
+}
+
+.navbar li a {
+	text-decoration: none;
+}
+ 
+ #hobbies {
+	 text-align: left;
+	 color: blue;
+ }
+
+ h1 {
+      color:hotpink;
+    }
+
+    .header {
+		left-align: 100px;
+		right-align: 100px;
+      background-color: pink;
+	  border-radius: 20;
+	  text-align: center;
+    }
+
+.footer {
+	left-align: 100px;
+	right-align: 100px;
+     background-color: pink;
+	 border-radius: 20;
+	 text-align: center;
+    }
+	
+#links a {
+	text-decoration: none;
+}
+
+#yeeeee	p {
+      color:white;
+	  text-align: center;
+    }
+
+
+    table {
+      border-block-end-color: aquamarine;
+      border-block-start-color: blueviolet;
+      background-color: azure;
+    }
+
+
+    #yeeeee {
+      background-color:plum;
+    }
+	
+#footbar {
+	text-align: center;
+	background: plum;
+}
+#footbar li {
+	display: inline-block;
+	padding: 20px;
+	background-color: white;
+	border-radius: 13px;
+}
+
+#footbar li a {
+	text-decoration: none;
+}
