@@ -222,19 +222,31 @@ img:hover {
 }
 
 .html {width: 100%; background-color: #cc66cc;} /* Purple */
-.css {width: 80%; background-color: #ff33ff;} /* Pink */
-.js {width: 80%; background-color: #ff33ff;} /* Pink */
+.css {width: 80%; background-color: #CE79A5;} /* Pink */
+.js {width: 80%; background-color: #CE79A5;} /* Pink */
 .php {width: 25%; background-color: #f44336;} /* Red */
 .sql {width: 100%; background-color: #cc66cc;} /* Purple */
-.python {width: 90%; background-color: #ff33ff;} /* Pink */
-.cpp {width: 75%; background-color: #ff33ff;} /* Pink */
+.python {width: 90%; background-color: #CE79A5;} /* Pink */
+.cpp {width: 75%; background-color: #CE79A5;} /* Pink */
 .csharp {width: 25%; background-color: #f44336;} /* Red */
-.vb {width: 80%; background-color: #ff33ff;} /* Pink */
-.nodejs {width: 80%; background-color: #ff33ff;} /* Pink */
-.bootstrap {width: 80%; background-color: #ff33ff;} /* Pink */
-.d3 {width: 80%; background-color: #ff33ff;} /* Pink */
-.java {width: 60%; background-color: #cc0000;} /* Burgundy */
+.vb {width: 80%; background-color: #CE79A5;} /* Pink */
+.nodejs {width: 80%; background-color: #CE79A5;} /* Pink */
+.bootstrap {width: 80%; background-color: #CE79A5;} /* Pink */
+.d3 {width: 80%; background-color: #CE79A5;} /* Pink */
+.java {width: 50%; background-color: #cc0000;} /* Burgundy */
 .ruby {width: 40%; background-color: #cc0000;} /* Burgundy */
 .plotly {width: 60%; background-color: #cc0000;} /* Burgundy */
 .pandas {width: 100%; background-color: #cc66cc;} /* Purple */
 .matplotlib {width: 100%; background-color: #cc66cc;} /* Purple */
+
+/* MAPS MAPS MAPS */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
