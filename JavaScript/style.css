@@ -25,6 +25,7 @@ body {
 
  h1 {
       color:hotpink;
+	  padding-left: 30px;
     }
 
     .header {
@@ -35,7 +36,9 @@ body {
 	  text-align: center;
     }
 
-
+li {
+	padding-left: 20px;
+}
 	
 #links a {
 	text-decoration: none;
@@ -43,13 +46,21 @@ body {
 
 #yeeeee	p {
       color:white;
-	  text-align: center;
+	  text-align: left;
+	  padding-left: 30px;
+	  padding-right: 20px;
     }
 
 
     #yeeeee {
       background-color:plum;
     }
+
+#yes p {
+		text-align: left;
+	  padding-left: 30px;
+	  padding-right: 20px;
+}
 	
 /* IMAGE SHAKE */
 img:hover {
