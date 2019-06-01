@@ -50,12 +50,16 @@ executable_path = {'executable_path': 'chromedriver.exe'}
 browser = Browser('chrome', **executable_path, headless=False)
 </code></pre>
 
+<p>Not all computers are created equal, and the Mac vs Windows divide is present in this project. Tad was on a Mac, so he had to use a different way to use the chromedriver. Everyone else had to use the above code.</p>
+
 <pre><code>
 url = 'https://www.serebii.net/pokedex-sm/001.shtml'
 response = requests.get(url)
 soup = bs(response.text, 'html.parser')
 #print(soup.prettify())
 </code></pre>
+
+<p>First, we started with Serebiinet. Uncomment the print statement to see what soup returns. Careful - it's long!</p>
 
 <pre><code>
 # This will hold ALLLLLLLLLLLLL the Pokemon
@@ -75,6 +79,9 @@ base_happiness = []
 ev_values = []
 flavor_text = []
 </code></pre>
+
+<p>Note: The data is held in array, so you have to figure out which parts of the array to keep. After deciding which parts of the data are useful through viewing the array, you can use the above code to seperate the data into columns.</p>
+<p><img src="https://i.imgur.com/vXOsdVN.png"></p>
 
 <pre><code>
 url_base = 'https://www.serebii.net/pokedex-sm/'
@@ -127,6 +134,9 @@ web_data = {'Name': name_w, 'Alternate Name': alt_name, 'Dex Data': dex_data, 'G
 web_df = pd.DataFrame(web_data)
 web_df.head()
 </code></pre>
+<p>Below is an example of the DataFrame made through Serebii.</p>
+<p>As you can see, obtaining the Flavor Text isn't perfect since this quick and dirty solution just gets the 23rd element of the array.</p>
+<p><img src="https://i.imgur.com/DNJeEYz.png"></p>
 
 <pre><code>
 # FOR POKE-API
@@ -199,6 +209,8 @@ api_df = pd.DataFrame(api_data)
 
 api_df
 </code></pre>
+<p>Below is a DataFrame made by Pokeapi.</p>
+<p><img src="https://i.imgur.com/vBGa99q.png"></p>
 
 <pre><code>
 web_data = {'Name2': name_w, 'Classification': classification,
@@ -231,6 +243,9 @@ web_df.to_sql('pokemon_2', con=engine0, if_exists='replace')
 # Run to check data has been imported
 engine0.execute("select * from pokemon_2").fetchall()
 </code></pre>
+
+<p>Fetch the data from SQLite and make sure it's all correct.</p>
+<p><img src="https://i.imgur.com/bvUrmWQ.png"></p>
 
 <pre><code>
 # Create a database on MySQL
@@ -265,6 +280,9 @@ pd.read_sql_query("select *\
                     join web_df w\
                     on a.Name = w.Name", con=engine1)
 </code></pre>
+
+<p>Finally, check to see if the join is possible.</p>
+<p><img src="https://i.imgur.com/ZA4iRBN.png"></p>
 
 
 </body>
