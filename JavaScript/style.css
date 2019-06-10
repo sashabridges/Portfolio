@@ -2,6 +2,13 @@ body {
 	background-color: #f9ecf9;
 }
 
+#main_body {
+	border: 5 solid #9400D3;
+	padding: 250;
+	background-color: #9932CC;
+	opacity: 20;
+}
+
 .navbar {
 	text-align: center;
 	background: plum;
