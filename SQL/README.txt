@@ -1,7 +1,8 @@
 Originally a database just for Mabinogi's Handicraft List.
 
+Now includes a database for Magic Craft!
+
 Eventually will have:
--Magic Craft List
 -Hillwen Engineering List
 -Tailoring List
 -Blacksmithing List
