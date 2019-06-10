@@ -4,10 +4,11 @@ body {
 }
 
 div.main_body {
-	align: center;
 	display: inline-block;
-	border: 5 solid #9400D3;
+	border: 1px solid black;
 	padding: 250;
+	padding-top: 50;
+	width: 80%;
 	background-color: #f9ecf9;
 	opacity: 2;
 }
