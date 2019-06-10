@@ -1,12 +1,13 @@
 body {
-	background-color: #f9ecf9;
+	background-color: #9932CC;
+	
 }
 
 div.main_body {
 	display: inline-block;
 	border: 5 solid #9400D3;
 	padding: 250;
-	background-color: #9932CC;
+	background-color: #f9ecf9;
 	opacity: 2;
 }
 
