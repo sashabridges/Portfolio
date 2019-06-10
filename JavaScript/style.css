@@ -2,11 +2,12 @@ body {
 	background-color: #f9ecf9;
 }
 
-#main_body {
+div.main_body {
+	display: inline-block;
 	border: 5 solid #9400D3;
 	padding: 250;
 	background-color: #9932CC;
-	opacity: 20;
+	opacity: 2;
 }
 
 .navbar {
