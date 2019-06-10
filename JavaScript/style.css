@@ -4,6 +4,7 @@ body {
 }
 
 div.main_body {
+	align: center;
 	display: inline-block;
 	border: 5 solid #9400D3;
 	padding: 250;
