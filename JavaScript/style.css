@@ -1,13 +1,13 @@
 body {
-	background-color: #9932CC;
+	background-color: #D8BFD8;
 	
+	/*#9932CC*/
 }
 
 div.main_body {
 	display: inline-block;
 	border: 1px solid black;
-	padding: 250;
-	padding-top: 50;
+	margin: 5%;
 	width: 80%;
 	background-color: #f9ecf9;
 	opacity: 2;
