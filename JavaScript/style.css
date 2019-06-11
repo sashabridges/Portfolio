@@ -96,6 +96,10 @@ img:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+img {
+	border: 1px solid black;
+}
+
 
 /* TOOLTIP TOOLTIP TOOLTIP */
 /* Tooltip container */
