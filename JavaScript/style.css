@@ -39,37 +39,37 @@ div.main_body {
 	  padding-left: 30px;
     }
 
-    .header {
-		left-align: 100px;
-		right-align: 100px;
-      background-color: pink;
-	  border-radius: 20;
-	  text-align: center;
-    }
+.header {
+left-align: 100px;
+right-align: 100px;
+background-color: pink;
+border-radius: 20;
+text-align: center;
+}
 
 li {
-	padding-left: 20px;
+padding-left: 20px;
 }
 	
 #links a {
-	text-decoration: none;
+text-decoration: none;
 }
 
 #yeeeee	p {
-	  text-align: left;
-	  padding-left: 30px;
-	  padding-right: 20px;
-    }
+text-align: left;
+padding-left: 30px;
+padding-right: 20px;
+}
 
-
-    #yeeeee {
-      background-color:plum;
-    }
+#yeeeee {
+background-color:plum;
+padding-bottom: 1em;
+}
 
 #yes p {
-		text-align: left;
-	  padding-left: 30px;
-	  padding-right: 20px;
+text-align: left;
+padding-left: 30px;
+padding-right: 20px;
 }
 	
 /* IMAGE SHAKE */
