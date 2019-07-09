@@ -21,8 +21,7 @@ What to expect later:
 
 ## APIs
 
-![alt text](https://github.com/sashabridges/Portfolio/tree/master/APIs/lat_vs_cloudiness.png  "Latitude VS Cloudiness")
-
+![alt text](https://i.imgur.com/MwPkYxf.png "Humidity")
 
 This Python program takes randomly generated Latitudes and Longitudes and finds the nearest cities through Citipy. Then, the program references those cities and runs them through the OpenWeatherAPI to get weather data such as humidity, cloudiness, temperature, and wind speeds and plots them on a chart with Matplotlib.
 ---
