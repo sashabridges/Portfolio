@@ -23,18 +23,18 @@ What to expect later:
 
 ![alt text](https://i.imgur.com/MwPkYxf.png "Humidity")
 
-This Python program takes randomly generated Latitudes and Longitudes and finds the nearest cities through Citipy. Then, the program references those cities and runs them through the OpenWeatherAPI to get weather data such as humidity, cloudiness, temperature, and wind speeds and plots them on a chart with Matplotlib.
+#### This Python program takes randomly generated Latitudes and Logitudes and finds the nearest cities through Citipy. Then, the program references those cities and runs them through the OpenWeatherAPI to get weather data such as humidity, cloudiness, temperature, and wind speeds and plots them on a chart with Matplotlib.
 ---
 
 ## SQL
 
 ![alt text](https://i.imgur.com/teNZwNc.png "Magic Craft Queries")
 
-This SQL code creates a database for the Mabinogi Handicraft crafting list as well as the Magic Craft crafting list. The Magic Craft DB also comes with some sample queries for searching for individual items.
+##### This SQL code creates a database for the Mabinogi Handicraft crafting list as well as the Magic Craft crafting list. The Magic Craft DB also comes with some sample queries for searching for individual items.
 ---
 
 ## JavaScript
 ![alt text](https://i.imgur.com/XaCQEG7.png "Web NavBar")
 
-This website utilizes Bootstrap to display numerous projects.
+##### This website utilizes Bootstrap to display numerous projects.
 ---
