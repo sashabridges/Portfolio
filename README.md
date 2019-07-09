@@ -17,3 +17,25 @@ What to expect later:
 - A Java project
 - A Ruby project
 - Another Python project
+
+
+## APIs
+---
+![alt text][latvcloud]
+
+[latvcloud: https://github.com/sashabridges/Portfolio/tree/master/APIs/lat_vs_cloudiness.png  "Latitude VS Cloudiness"]
+
+This Python program takes randomly generated Latitudes and Longitudes and finds the nearest cities through Citipy. Then, the program references those cities and runs them through the OpenWeatherAPI to get weather data such as humidity, cloudiness, temperature, and wind speeds and plots them on a chart with Matplotlib.
+
+## SQL
+---
+![alt text][samplesql]
+[samplesql: https://i.imgur.com/teNZwNc.png "Magic Craft Queries"]
+
+This SQL code creates a database for the Mabinogi Handicraft crafting list as well as the Magic Craft crafting list. The Magic Craft DB also comes with some sample queries for searching for individual items.
+
+## JavaScript
+![alt text][header]
+[header: https://i.imgur.com/XaCQEG7.png "Web NavBar"]
+
+This website utilizes Bootstrap to display numerous projects.
