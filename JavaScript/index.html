@@ -2,16 +2,14 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-   <link rel="stylesheet" href="style.css">
-  <style>
-    
-
-
-  
-  </style>
-
-  <title>Portfolio Main Page</title>
-</head>
+  <title>Sasha Bridges' Portfolio</title>
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  </head>
 
 <body>
 
@@ -20,6 +18,21 @@
   <a href="another_page.html">Portfolio</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
+  <a href="visualizations.html">Visualizations Landing</a>
+  <a href="comparison.html">Comparisons</a>
+  <a href="data.html">Data Table</a>
+	<div class="btn-group dropright">
+	  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:purple; color:white;">
+		Plots
+	  </button>
+	  <div class="dropdown-menu" z-index="1070;">
+		<a href="cloudiness.html">Cloudiness</a>
+		<a href="humidity.html">Humidity</a>
+		<a href="temp.html">Temperature</a>
+		<a href="wind_speed.html">Wind Speed</a>
+	  </div>
+	</div>
+
   <div class="login-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Username" name="username">
@@ -28,9 +41,10 @@
     </form>
   </div>
 </div>
-
-
+<!-- END NAVBAR -->
+<div class="container-fluid">
 <div class="main_body">
+
 <div id ="yes">
   
  <div class="container" style="background-color: #f9ecf9;">
@@ -47,7 +61,7 @@
 <p>Currently, I have the following projects:</p>
 
 <p>APIs: Takes data from the OpenWeatherAPI and creates scatterplots through Python's Pandas and Matplotlib libraries.</p>
-<p>JavaScript: Utilizes HTML, CSS, Bootstrap and Leaflet to create a website. It's very pink. :) You are here!</p>
+<p>JavaScript: Utilizes HTML, CSS, Bootstrap and Leaflet to create a website. It's very purple. :) You are here!</p>
 <p>SQL: Has a singular SQL table full of data from the MabinogiWorld wiki.</p>
 <p>NodeJS: A quick Notes App</p>
   
@@ -74,7 +88,7 @@
 <ul>
   <li><a href="http://www.Github.com/sashabridges/portfolio">Sasha's Github</a></li>
   <li><a href="https://www.linkedin.com/in/sasha-bridges/">Sasha's LinkedIn</a></li>
-  <li><a href="https://sashabridges.github.io/DowntownData/">Crime Analysis</li>
+  <li><a href="https://sashabridges.github.io/DowntownData/">Crime Analysis</a></li>
 </ul>
 </div>
 <h1>Internal Links</h1>
@@ -84,17 +98,12 @@
 </ul>
 </div>
 </div>
-</div>
 
+</div>
 <div id="footer">
 <hr>
 <p>Sasha Bridges, 2019</p>
 <hr>
 </div>
-  
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 </html>

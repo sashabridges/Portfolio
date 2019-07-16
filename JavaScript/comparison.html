@@ -12,46 +12,38 @@
   </head>
 
 <body>
-<div class="container-fluid">
-<!-- BEGIN NAVBAR  -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Home</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="visualizations.html">Visualizations Landing <span class="sr-only">(current)</span></a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="another_page.html">Portfolio</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="comparison.html">Comparisons</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="data.html">Data</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Plots
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-          <a class="dropdown-item" href="humidity.html">Humidity</a>
-		  <a class="dropdown-item" href="temp.html">Temperature</a>
-		  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-        </div>
-      </li>
-    </ul>
+<!-- BEGIN NAVBAR  -->
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="another_page.html">Portfolio</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="visualizations.html">Visualizations Landing</a>
+  <a href="comparison.html">Comparisons</a>
+  <a href="data.html">Data Table</a>
+	<div class="btn-group dropright">
+	  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:purple; color:white;">
+		Plots
+	  </button>
+	  <div class="dropdown-menu" z-index="1070;">
+		<a href="cloudiness.html">Cloudiness</a>
+		<a href="humidity.html">Humidity</a>
+		<a href="temp.html">Temperature</a>
+		<a href="wind_speed.html">Wind Speed</a>
+	  </div>
+	</div>
+
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit">Login</button>
+    </form>
   </div>
-</nav>
+</div>
 <!-- END NAVBAR -->
+<div class="container-fluid">
 <div class="main_body">
 <h1>Comparison: Latitude vs. X</h1>
 <hr>

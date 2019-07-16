@@ -2,15 +2,15 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>GottaScrapeEmAll</title>
-    <!-- Bring in our bootstrap stylesheet -->
+  <title>Sasha Bridges' Portfolio</title>
+  <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-</head>
+  </head>
+
 <body>
 
 <div class="topnav">
@@ -18,6 +18,21 @@
   <a href="another_page.html">Portfolio</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
+  <a href="visualizations.html">Visualizations Landing</a>
+  <a href="comparison.html">Comparisons</a>
+  <a href="data.html">Data Table</a>
+	<div class="btn-group dropright">
+	  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:purple; color:white;">
+		Plots
+	  </button>
+	  <div class="dropdown-menu" z-index="1070;">
+		<a href="cloudiness.html">Cloudiness</a>
+		<a href="humidity.html">Humidity</a>
+		<a href="temp.html">Temperature</a>
+		<a href="wind_speed.html">Wind Speed</a>
+	  </div>
+	</div>
+
   <div class="login-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Username" name="username">
@@ -26,7 +41,11 @@
     </form>
   </div>
 </div>
+<!-- END NAVBAR -->
+<div class="container-fluid">
 <div class="main_body">
+<!--- CONTENT HERE --->
+
 <p>GottaScrapeEmAll is a group ETL project that scrapes data from the Serebii.net website and the Pokeapi.co api and transforms them into a Pandas Data Frame before loading them into a SQLite database.</p>
 
 <p>If you want to try this code out yourself, go to <a href="https://github.com/sashabridges/ScrapeMon">github</a> and download the project.</p>
@@ -286,5 +305,15 @@ pd.read_sql_query("select *\
 <p><img src="https://i.imgur.com/ZA4iRBN.png"></p>
 </div>
 
+
+<!--- END CONTENT --->
+</div>
+
+</div>
+<div id="footer">
+<hr>
+<p>Sasha Bridges, 2019</p>
+<hr>
+</div>
 </body>
 </html>

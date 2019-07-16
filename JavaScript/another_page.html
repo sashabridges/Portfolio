@@ -2,16 +2,37 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
+  <title>Sasha Bridges' Portfolio</title>
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Web Portfolio</title>
-</head>
-<body background-color="#f9ecf9">
+  </head>
+
+<body>
 
 <div class="topnav">
   <a class="active" href="index.html">Home</a>
   <a href="another_page.html">Portfolio</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
+  <a href="visualizations.html">Visualizations Landing</a>
+  <a href="comparison.html">Comparisons</a>
+  <a href="data.html">Data Table</a>
+	<div class="btn-group dropright">
+	  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:purple; color:white;">
+		Plots
+	  </button>
+	  <div class="dropdown-menu" z-index="1070;">
+		<a href="cloudiness.html">Cloudiness</a>
+		<a href="humidity.html">Humidity</a>
+		<a href="temp.html">Temperature</a>
+		<a href="wind_speed.html">Wind Speed</a>
+	  </div>
+	</div>
+
   <div class="login-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Username" name="username">
@@ -20,62 +41,69 @@
     </form>
   </div>
 </div>
+<!-- END NAVBAR -->
+<div class="container-fluid">
 <div class="main_body">
-<div class="tooltip">Hover over the project links for a small description of the project.
-  <span class="tooltiptext">Like this!</span>
-</div>
+<!--- CONTENT HERE --->
+
+
+
 <h1>Projects</h1>
-<ul>
-<li>
-<div class="tooltip">
-<a href="leaflet.html">Leaflet Project</a>
-<span class="tooltiptext">A map showing all of the places I've been to.</span>
-</li>
-
-<li>
-	<div class="tooltip">
-		<a href="visualizations.html">Visualizing Climate Data</a>
-		<span class="tooltiptext">A mini-site showing off Bootstrap and data collected from a weather web API.</span>
-	</div>
-</li>
-<li>
-	<div class="tooltip">
-		<a href="gottascrapeemall.html">GottaScrapeEmAll</a>
-		<span class="tooltiptext">A web-scraping project using BeautifulSoup, Pandas, and SQLAlchemy.</span>
-	</div>
-</li>
-<li>
-	<div class="tooltip">
-		<a href="java_proj.html">Java Skillcalc</a>
-		<span class="tooltiptext">A Mabinogi Skill Calculator.</span>
-	</div>
-</li>
-<li>
-	<div class="tooltip">
-		<a href="NodeJS.html">Node To-Do List</a>
-		<span class="tooltiptext">A NodeJS To-Do List.</span>
-	</div>
-</li>
-<li>
-	<div class="tooltip">
-		<a href="ReactJS.html">React Mabinogi Skillcalc</a>
-		<span class="tooltiptext">A Mabinogi Skill Calculator - but in REACT.</span>
-	</div>
-</li>
-<li>
-	<div class="tooltip">
-		<a href="db.html">Mabinogi Crafting Database</a>
-		<span class="tooltiptext">It's in SQL!</span>
-	</div>
-</li>
-<li>
-<div class="tooltip">
-		<a href="https://sashabridges.github.io/DowntownData/">Crime Analysis</a>
-		<span class="tooltiptext">A website showing analyzations of crime from 2014 to 2017.</span>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Like this!" style="color:white; background-color: purple;" position="right">
+  Hover over the project links for a small description of the project.
+</button>
+<p></p>
+<div class="row">
 </div>
-</li>
-</ul>
 
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A map showing all of the places I've been to." style="color:white; background-color: purple;">
+  <a href="leaflet.html" style="color:white;">Leaflet Project</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A mini-site showing off Bootstrap and data collected from a weather web API." style="color:white; background-color: purple;">
+  <a href="visualizations.html" style="color:white;">Visualizing Climate Data</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A web-scraping project using BeautifulSoup, Pandas, and SQLAlchemy." style="color:white; background-color: purple;">
+  <a href="gottascrapeemall.html" style="color:white;">GottaScrapeEmAll</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A Mabinogi Skill Calculator." style="color:white; background-color: purple;">
+  <a href="java_proj.html" style="color:white;">Java Skillcalc</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A NodeJS To-Do List." style="color:white; background-color: purple;">
+  <a href="NodeJS.html" style="color:white;">Node To-Do List</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A Mabinogi Skill Calculator - but in REACT." style="color:white; background-color: purple;">
+  <a href="ReactJS.html" style="color:white;">React Mabinogi Skillcalc</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="It's in SQL!" style="color:white; background-color: purple;">
+  <a href="db.html" style="color:white;">Mabinogi Crafting Database</a>
+</button>
+
+<p></p>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="A website showing analyzations of crime from 2014 to 2017." style="color:white; background-color: purple;">
+  <a href="https://sashabridges.github.io/DowntownData/" style="color:white;">Crime Analysis</a>
+</button>
+
+<br>
+<hr>
 <br>
 
 <h1>My Skillset</h1>
@@ -172,13 +200,16 @@
 
 
 
+
+
+<!--- END CONTENT --->
+</div>
+
 </div>
 <div id="footer">
 <hr>
 <p>Sasha Bridges, 2019</p>
 <hr>
 </div>
-
-
 </body>
 </html>
