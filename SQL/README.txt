@@ -1,14 +1,24 @@
 Originally a database just for Mabinogi's Handicraft List.
 
-Now includes a database for Magic Craft!
+Now delving further into a complete project to database the entire Mabinogi Crafting List
 
-Eventually will have:
+#Now includes a database for Magic Craft, Potion Making, and Weaving!
+
+Next up:
+Carpentry!
+
+#Eventually will have:
 -Hillwen Engineering List
 -Tailoring List
 -Blacksmithing List
--Potion Making List
 -Synthesis List
+-Fragmentation List
+-Carpentry List
+-Fishing List
 
-Might eventually contain Skills.
+Will eventually contain Skills.
 
-Hopefully will be the back-end of a larger program.
+Eventually, this database will be the backend of my Java SkillCalc and my ASP.NET Crafting Database.
+
+Known issues:
+- Does not include the Far Darrig Bag items, including Shiny String (Weaving) or Far Darrig Bag (Handicraft). Will change at a later date.
