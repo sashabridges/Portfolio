@@ -57,6 +57,10 @@ text-align: left;
 padding-left: 30px;
 padding-right: 20px;
 }
+
+.code {
+	font-size: 15px;
+}
 	
 /* IMAGE SHAKE */
 img:hover {

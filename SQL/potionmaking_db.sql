@@ -15,7 +15,7 @@ INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES 
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Comprehensive HP 500 Potion', 'Dan 1',	 'Wound Remedy 30 Potion x 3, HP 300 Potion RE x 1, Bottled Water x 1', 'Restores 500 HP & Wound');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Comprehensive Recovery 1000 Potion', 'Dan 1', 'N/A',		'Restores 1,000 HP, MP, Stamina & Wound');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Comprehensive Recovery 500 Potion', 'Dan 1', 'N/A',		'Restores 500 HP, MP, Stamina & Wound' );
-INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('HP & MP 30 Potion'	'F', 'Mana Herb x 1, Bloody Herb x 1, Base Herb x 1', 'Restores 30 HP & MP');
+INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('HP & MP 30 Potion',	'F', 'Mana Herb x 1, Bloody Herb x 1, Base Herb x 1', 'Restores 30 HP & MP');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('HP & MP 50 Potion', 'F', 'Mana Herb x 1, Bloody Herb x 1, Base Potion x 1, Base Herb x 1', 'Restores 50 HP & MP');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('HP & Stamina 30 Potion', 'F', 'Mandrake x 1, Base Herb x 1', 'Restores 30 HP & Stamina');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('HP & Stamina 50 Potion', 'F', 'Mandrake x 1, Base Potion x 1, Base Herb x 1', 'Restores 50 HP & Stamina');
@@ -31,7 +31,7 @@ INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES 
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('MP 50 Potion',	'Novice', 'Mana Herb x 1, Base Herb x 1', 'Restores 50 MP');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('MP 500 Potion', '?', 'Water x 1, MP 300 Potion x 1, Four-Leaf Clover x 1', 'Restores 500 MP');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('MP 500 Potion RE', 'Dan 1', 'Water x 1, Mandrake x 1, MP 500 Potion x 1, Four-Leaf Clover x 1', 'Restores 500 MP');
-INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Marionette 100 Potion'	'F', 'Zinc Ore Fragment x 1, Tin Ore Fragment x 1, Sunlight Herb x 1, Base Potion x 1', 'Restores 100 HP of the summoned Marionette');
+INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Marionette 100 Potion',	'F', 'Zinc Ore Fragment x 1, Tin Ore Fragment x 1, Sunlight Herb x 1, Base Potion x 1', 'Restores 100 HP of the summoned Marionette');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Marionette 30 Potion',	'F', 'Tin Ore Fragment x 1, Base Potion x 1, Base Herb x 1', 'Restores 30 HP of the summoned Marionette');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Marionette 300 Potion', 'F', 'Zinc Ore Fragment x 1, Nickel Ore Fragment x 1, Mana Herb x 1, Base Potion x 1', 'Restores 300 HP of the summoned Marionette');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Marionette 50 Potion', 'F', 'Tin Ore Fragment x 1, Bloody Herb x 1, Base Potion x 1', 'Restores 50 HP of the summoned Marionette');
@@ -57,8 +57,7 @@ INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES 
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Antidote Potion', '5', 'Water x 1, Base Herb x 1, Antidote Herb x 1', 'Cures poisoning from Poison Attack and sulfur poisoning (not Potion Poisoning).');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Good Luck Potion',	'F', 'Water x 1, Four-Leaf Clover x 1, Base Herb x 1', 'Changes into a random item after 36 minutes.');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Likeability Potion', 'C', 'Water x 1, Gold Mushroom x 1, Bloody Herb x 1', 'Raises the affection level when given as a present to an NPC.');
-INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Holy Potion of Lymilark','F', 'Spirit Viewing Powder x 1, Spirit Hearing Water x 1, Spirit Forming Bottle x 1');
-INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Used in Creating the Secret Formula for Holy Potion of Lymilark quest of Generation 3: Dark Knight.');
+INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Holy Potion of Lymilark', 'F', 'Spirit Viewing Powder x 1, Spirit Hearing Water x 1, Spirit Forming Bottle x 1', 'Used in Creating the Secret Formula for Holy Potion of Lymilark quest of Generation 3: Dark Knight.');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Possessed Potion',	'Novice', 'Water x 1, Mana Herb x 1, Bloody Herb x 1, Base Herb x 1', 'Used in Shamala in Crisis Generation 17 Sidequest');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Spirit Hearing Water',	'F','White Herb x 1, Mana Herb x 1, Bloody Herb x 1', 'Used to make Holy Potion of Lymilark');
 INSERT INTO potion_making_items (potion, i_rank, materials, description) VALUES ('Treasure Hunters Special Potion', 'Novice', 'Scorpion Hair x 4, Peculiar Dust x 4, Map Pieces x 10, Lava Fruit x 2, Hot Ash x 5, Creepy Sprout x 3, Bitterbite Herb x 6', 'Used in Iria II: Episode 3 - Pursuit');
