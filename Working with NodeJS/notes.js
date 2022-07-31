@@ -34,7 +34,7 @@ const removeNote = (title) => {
     const notes = loadNotes()
     const nonmatching = notes.filter((note) => note.title != title)
     
-    savenNotes(nonmatching)
+    saveNotes(nonmatching)
     
     if (notes.length > nonmatching.length) {
         console.log(chalk.green.inverse.bold('Note removed!'))
