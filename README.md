@@ -1,40 +1,33 @@
-# Portfolio
+# vue-project
 
-Inside each folder will be projects for each individual language or framework
-EX: HTML will have HTML, NodeJS will have Node.js, SQL will have SQL, and so on.
+This template should help get you started developing with Vue 3 in Vite.
 
-Currently, the following folders have a project in them:
-- APIs: Takes data from the OpenWeatherAPI and creates scatterplots through Python's Pandas and Matplotlib libraries.
-- JavaScript: Utilizes HTML, CSS, Bootstrap and Leaflet to create a website. It's very pink. :)
-- SQL: Has a singular SQL table full of data from the MabinogiWorld wiki.
-- NodeJS: A quick Notes App
+## Recommended IDE Setup
 
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-What to expect later:
-- A Visual Basic project
-- An ASP.NET project
-- A C++ project
-- A Java project
-- A Ruby project
-- Another Python project
----
+## Type Support for `.vue` Imports in TS
 
-## APIs
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-![alt text](https://i.imgur.com/MwPkYxf.png "Humidity")
+## Customize configuration
 
-#### This Python program takes randomly generated Latitudes and Logitudes and finds the nearest cities through Citipy. Then, the program references those cities and runs them through the OpenWeatherAPI to get weather data such as humidity, cloudiness, temperature, and wind speeds and plots them on a chart with Matplotlib.
----
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## SQL
+## Project Setup
 
-![alt text](https://i.imgur.com/teNZwNc.png "Magic Craft Queries")
+```sh
+npm install
+```
 
-##### This SQL code creates a database for the Mabinogi Handicraft crafting list as well as the Magic Craft crafting list. The Magic Craft DB also comes with some sample queries for searching for individual items.
----
+### Compile and Hot-Reload for Development
 
-## JavaScript
-![alt text](https://i.imgur.com/XaCQEG7.png "Web NavBar")
+```sh
+npm run dev
+```
 
-##### This website utilizes Bootstrap to display numerous projects.
----
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
