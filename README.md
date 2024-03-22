@@ -1,33 +1,21 @@
-# vue-project
+### Where's the portfolio?
+It's currently under a major rework. It hadn't been updated since 2019. You can use version history to see what used to be here.
 
-This template should help get you started developing with Vue 3 in Vite.
+Current project:
+- [DungeonCore - a C# and .NET project](https://github.com/sashabridges/DungeonCore/tree/main)
 
-## Recommended IDE Setup
+Old projects:
+- [Overland Park Crime Data](https://sashabridges.github.io/DowntownData/)
+- [Memory Museum - a Magia Record fansite](https://memorymuseum.info)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### The Vue Website
+This repository is currently holding the files for a small VueJS website. You can download the repository and then use the below commands to check it out.
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
